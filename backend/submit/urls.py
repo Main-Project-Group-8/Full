@@ -1,7 +1,7 @@
 from django.urls import path
 
-from . import views
+from .views import form_submit
 
 urlpatterns = [
-    path("", views.submit_form, name="submit-form"),
+    path('', form_submit, name='form_submit'),
 ]
